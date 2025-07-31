@@ -1,16 +1,68 @@
-# sliver_section_loader
+# 🚀 Sliver Lazy Load Flutter Example
 
-sliver_section_loader
+A lightweight and flexible Flutter project that demonstrates how to lazily load multiple Sliver sections as you scroll. Ideal for content-heavy, performance-optimized apps.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+* 🔁 **Auto-loading Sliver sections** triggered by scroll position
+* 🧩 **Mixed content support**: `PageView`, `ListView`, `Carousel`, `Image`, and custom widgets
+* ✨ **Shimmer loading effect** for network images
+* 🎬 **Animated transitions** (Fade, Slide) per section
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Project Structure
+
+```
+lib/
+├── main.dart
+├── pages/
+│   └── sliver_lazy_load_page.dart
+├── widgets/
+│   ├── auto_sliver_section_loader.dart
+│   ├── section_loader.dart
+│   └── section/
+│       ├── section_item.dart
+│       ├── section_item_builder.dart
+│       ├── section_animated_wrapper.dart
+├── controllers/
+│   └── auto_section_loader_controller.dart
+```
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+flutter pub get
+flutter run
+```
+
+---
+
+## 🔧 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  shimmer: ^2.0.0
+```
+
+---
+
+## 👨‍💻 Author
+
+**이해준**
+Mobile App Developer (Flutter / iOS / Android)
+GitHub: [@Muon-github](https://github.com/Muon-relativity
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
