@@ -50,7 +50,8 @@ flutter run
 dependencies:
   flutter:
     sdk: flutter
-  shimmer: ^2.0.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
 ```
 
 ---
